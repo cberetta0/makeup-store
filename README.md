@@ -1,16 +1,74 @@
-# React + Vite
+# Glow Beauty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Glow Beauty es una aplicación web desarrollada con React que simula una tienda e-commerce de productos de maquillaje.
 
-Currently, two official plugins are available:
+El proyecto fue realizado utilizando componentes reutilizables, React Router para la navegación y un archivo JSON local para simular la obtención de productos desde una API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- React
+- Vite
+- JavaScript
+- CSS
+- React Router DOM
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Página de inicio.
+- Catálogo de productos.
+- Obtención de productos desde `productos.json` utilizando `fetch` y `useEffect`.
+- Componentes reutilizables para mostrar productos.
+- Vista de detalle de cada producto.
+- Página de carrito.
+- Navegación con `react-router-dom`.
+- Layout general con Header, NavBar y Footer.
+- Diseño responsive.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura principal
+
+```text
+src/
+├── components/
+│   ├── layout/
+│   ├── products/
+│   └── cart/
+├── pages/
+├── styles/
+├── App.jsx
+└── main.jsx
+```
+
+Los productos se encuentran almacenados en:
+
+```text
+public/productos.json
+```
+
+## Instalación
+
+Clonar el repositorio e instalar las dependencias:
+
+```bash
+npm install
+```
+
+Luego iniciar el proyecto:
+
+```bash
+npm run dev
+```
+
+La aplicación estará disponible en la dirección indicada por Vite, normalmente:
+
+```text
+http://localhost:5173
+```
+
+## Rutas
+
+```text
+/                 Inicio
+/productos        Catálogo de productos
+/producto/:id     Detalle de producto
+/carrito          Carrito de compras
+```
