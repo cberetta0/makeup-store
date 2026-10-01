@@ -1,0 +1,117 @@
+.footer {
+  background-color: #3c2f34;
+  color: #f9edf1;
+  padding: 50px 30px 20px;
+}
+
+.footer-info {
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer h3,
+.footer h4 {
+  color: #f4c9d9;
+  margin-bottom: 14px;
+}
+
+.footer p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.newsletter button {
+  border: none;
+  padding: 10px;
+  background-color: #b85c82;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #944563;
+}
+
+/* EQUIPO */
+
+.team {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.team h3 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.team-card {
+  background-color: #4c3a41;
+  border-radius: 12px;
+  padding: 18px;
+  text-align: center;
+}
+
+.team-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px;
+}
+
+.team-card h4 {
+  margin-bottom: 6px;
+}
+
+.team-card p {
+  color: #dec6cf;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #6c565e;
+  text-align: center;
+  font-size: 14px;
+  color: #cdbbc1;
+}
+
+@media (max-width: 900px) {
+  .footer-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-info {
+    grid-template-columns: 1fr;
+  }
+}

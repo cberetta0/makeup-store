@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "nombre": "Velvet Matte Lipstick",
+    "marca": "Glow Beauty",
+    "categoria": "Labios",
+    "precio": 18500,
+    "imagen": "/images/products/labial-matte.jpg",
+    "descripcion": "Labial de acabado mate aterciopelado, alta pigmentación y larga duración.",
+    "stock": 14
+  },
+  {
+    "id": 2,
+    "nombre": "Volume Lash Mascara",
+    "marca": "Glow Beauty",
+    "categoria": "Ojos",
+    "precio": 21200,
+    "imagen": "/images/products/mascara-volumen.jpg",
+    "descripcion": "Máscara de pestañas diseñada para aportar volumen, definición y un acabado intenso.",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "nombre": "Skin Glow Foundation",
+    "marca": "Glow Beauty",
+    "categoria": "Rostro",
+    "precio": 28900,
+    "imagen": "/images/products/base-glow.jpg",
+    "descripcion": "Base de cobertura media con acabado luminoso y textura liviana.",
+    "stock": 18
+  },
+  {
+    "id": 4,
+    "nombre": "Soft Touch Blush",
+    "marca": "Glow Beauty",
+    "categoria": "Rostro",
+    "precio": 16900,
+    "imagen": "/images/products/rubor.jpg",
+    "descripcion": "Rubor en polvo de textura suave para aportar un tono natural y fresco a las mejillas.",
+    "stock": 20
+  },
+  {
+    "id": 5,
+    "nombre": "Shine Lip Gloss",
+    "marca": "Glow Beauty",
+    "categoria": "Labios",
+    "precio": 14500,
+    "imagen": "/images/products/lip-gloss.jpg",
+    "descripcion": "Gloss labial con brillo intenso, textura confortable y acabado no pegajoso.",
+    "stock": 16
+  },
+  {
+    "id": 6,
+    "nombre": "Perfect Line Eyeliner",
+    "marca": "Glow Beauty",
+    "categoria": "Ojos",
+    "precio": 13800,
+    "imagen": "/images/products/delineador.jpg",
+    "descripcion": "Delineador líquido de punta fina para trazos precisos y color negro intenso.",
+    "stock": 11
+  },
+  {
+    "id": 7,
+    "nombre": "Sun Kissed Bronzer",
+    "marca": "Glow Beauty",
+    "categoria": "Rostro",
+    "precio": 19400,
+    "imagen": "/images/products/bronzer.jpg",
+    "descripcion": "Bronzer de acabado natural ideal para definir el rostro y aportar un efecto bronceado.",
+    "stock": 9
+  },
+  {
+    "id": 8,
+    "nombre": "Glow Highlighter",
+    "marca": "Glow Beauty",
+    "categoria": "Rostro",
+    "precio": 17900,
+    "imagen": "/images/products/iluminador.jpg",
+    "descripcion": "Iluminador en polvo con partículas ultrafinas para lograr un brillo luminoso y elegante.",
+    "stock": 13
+  },
+  {
+    "id": 9,
+    "nombre": "Nude Eyeshadow Palette",
+    "marca": "Glow Beauty",
+    "categoria": "Ojos",
+    "precio": 32500,
+    "imagen": "/images/products/paleta-sombras.jpg",
+    "descripcion": "Paleta de sombras en tonos neutros con acabados mate y satinados para looks de día y noche.",
+    "stock": 7
+  },
+  {
+    "id": 10,
+    "nombre": "Hydra Concealer",
+    "marca": "Glow Beauty",
+    "categoria": "Rostro",
+    "precio": 17200,
+    "imagen": "/images/products/corrector.jpg",
+    "descripcion": "Corrector líquido de cobertura media con textura hidratante para ojeras e imperfecciones.",
+    "stock": 15
+  }
+]

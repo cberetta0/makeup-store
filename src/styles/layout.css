@@ -1,0 +1,158 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #f8dce6;
+  padding: 24px 40px;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #8f3f62;
+  margin-bottom: 4px;
+}
+
+.header p {
+  color: #6c4b59;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  border-bottom: 1px solid #ead7df;
+}
+
+.navbar a {
+  font-weight: 600;
+  color: #6c4b59;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  color: #b85c82;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.home {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.home-content {
+  max-width: 650px;
+}
+
+.home h2 {
+  font-size: 42px;
+  color: #8f3f62;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+  color: #5b4a51;
+}
+
+.home-button,
+.cart-button {
+  display: inline-block;
+  background-color: #b85c82;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.home-button:hover,
+.cart-button:hover {
+  background-color: #944563;
+}
+
+.cart-widget {
+  position: relative;
+  font-size: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: #b85c82;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-page,
+.product-detail-page,
+.cart-page,
+.not-found {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.cart-page,
+.not-found {
+  text-align: center;
+}
+
+.cart-page h2,
+.not-found h2 {
+  color: #8f3f62;
+  margin-bottom: 16px;
+}
+
+.cart-page p,
+.not-found p {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .home h2 {
+    font-size: 32px;
+  }
+}
